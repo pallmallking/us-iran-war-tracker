@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# US-Iran War Tracker
 
-## Getting Started
+A comprehensive web dashboard tracking **Operation Epic Fury** (US-Iran-Israel conflict, Feb 2026–present).
 
-First, run the development server:
+## Features
+
+- **Overview** — KPIs, latest diplomatic signals, mini-map
+- **Map** — Interactive conflict map with layer toggles and time windows
+- **Timeline** — Filterable unified event feed
+- **Casualties** — Verified faction breakdowns with source attribution
+- **Military** — Curated deployment tracker
+- **Economy** — Hormuz status, oil prices, economic milestones
+- **Diplomacy** — Ceasefire and negotiation tracker
+- **News** — RSS aggregation from wire services
+
+## Data Sources
+
+- [IranWarLive](https://iranwarlive.com) kinetic, ground, diplomacy, and Hormuz feeds
+- Reuters, AP, BBC, Al Jazeera RSS
+- Yahoo Finance (Brent crude)
+- Seeded casualty/military data from CENTCOM, IDF, health ministries
+
+## Run Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Disclaimer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is an aggregated OSINT tracker, not an official government source. All figures link to primary sources where possible.

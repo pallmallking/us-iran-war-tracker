@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-06-24",
+  "assets": [
+    {
+      "id": "us-csg-lincoln",
+      "name": "USS Abraham Lincoln CSG",
+      "faction": "United States",
+      "type": "Carrier Strike Group",
+      "location": "Arabian Sea",
+      "coordinates": {
+        "lat": 22.5,
+        "lng": 62.0
+      },
+      "status": "Active - CENTCOM theater",
+      "last_confirmed": "2026-06-20",
+      "source_url": "https://www.atlanticcouncil.org/commentary/trackers-and-data-visualizations/tracking-us-military-assets-in-the-iran-war/"
+    },
+    {
+      "id": "us-diego-garcia",
+      "name": "Diego Garcia",
+      "faction": "United States / UK",
+      "type": "Strategic Base",
+      "location": "British Indian Ocean Territory",
+      "coordinates": {
+        "lat": -7.3,
+        "lng": 72.4
+      },
+      "status": "B-2/B-52 staging base",
+      "last_confirmed": "2026-03-01",
+      "source_url": "https://understandingwar.org/research/middle-east/"
+    },
+    {
+      "id": "us-psab",
+      "name": "Prince Sultan Air Base",
+      "faction": "United States",
+      "type": "Air Base",
+      "location": "Saudi Arabia",
+      "coordinates": {
+        "lat": 24.06,
+        "lng": 47.58
+      },
+      "status": "Active - missile defense & air ops",
+      "last_confirmed": "2026-05-15",
+      "source_url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
+    },
+    {
+      "id": "us-truxtun",
+      "name": "USS Truxtun (DDG-103)",
+      "faction": "United States",
+      "type": "Guided-Missile Destroyer",
+      "location": "Strait of Hormuz",
+      "coordinates": {
+        "lat": 26.5,
+        "lng": 56.5
+      },
+      "status": "Hormuz escort operations",
+      "last_confirmed": "2026-05-04",
+      "source_url": "https://iranwarlive.com/recap"
+    },
+    {
+      "id": "il-lebanon-buffer",
+      "name": "IDF Southern Lebanon Buffer",
+      "faction": "Israel",
+      "type": "Ground Forces",
+      "location": "Southern Lebanon",
+      "coordinates": {
+        "lat": 33.2,
+        "lng": 35.4
+      },
+      "status": "Occupied buffer zone",
+      "last_confirmed": "2026-06-23",
+      "source_url": "https://www.bbc.co.uk/news/world/middle_east"
+    },
+    {
+      "id": "ir-irgc-navy",
+      "name": "IRGC Navy",
+      "faction": "Iran",
+      "type": "Naval Forces",
+      "location": "Strait of Hormuz",
+      "coordinates": {
+        "lat": 27.0,
+        "lng": 56.0
+      },
+      "status": "Maritime enforcement",
+      "last_confirmed": "2026-06-20",
+      "source_url": "https://iranwarlive.com/strait-of-hormuz"
+    },
+    {
+      "id": "ir-natanz",
+      "name": "Natanz Nuclear Facility",
+      "faction": "Iran",
+      "type": "Nuclear Site",
+      "location": "Isfahan Province, Iran",
+      "coordinates": {
+        "lat": 33.72,
+        "lng": 51.72
+      },
+      "status": "Damaged - IAEA inspection pending",
+      "last_confirmed": "2026-06-22",
+      "source_url": "https://www.iaea.org/"
+    }
+  ]
+}

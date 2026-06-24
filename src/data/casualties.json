@@ -1,0 +1,57 @@
+{
+  "last_updated": "2026-06-24",
+  "total_range": [
+    7144,
+    9676
+  ],
+  "notes": "Verified figures from official ministries and CENTCOM. Cross-source ranges reflect reporting variance.",
+  "factions": [
+    {
+      "name": "Iran",
+      "killed": 3468,
+      "killed_range": [
+        3468,
+        6000
+      ],
+      "wounded": 26500,
+      "civilian_killed": 1701,
+      "military_killed": 1221,
+      "source": "Foundation of Martyrs / HRANA"
+    },
+    {
+      "name": "Lebanon",
+      "killed": 2679,
+      "wounded": 8229,
+      "source": "Lebanese Health Ministry"
+    },
+    {
+      "name": "United States",
+      "killed": 15,
+      "wounded": 365,
+      "military_killed": 15,
+      "source": "CENTCOM"
+    },
+    {
+      "name": "Israel",
+      "killed": 23,
+      "military_killed": 15,
+      "source": "IDF"
+    },
+    {
+      "name": "Iraq",
+      "killed": 100,
+      "wounded": 117,
+      "source": "Iraqi PMF reports"
+    },
+    {
+      "name": "Gulf States",
+      "killed": 12,
+      "source": "Official Gulf state reports"
+    },
+    {
+      "name": "Yemen",
+      "killed": 6,
+      "source": "UN OCHA"
+    }
+  ]
+}
